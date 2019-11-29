@@ -1,0 +1,26 @@
+<!--form-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">姓名</view>
+    <input name="name" placeholder="请输入姓名" />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">性别</view>
+    <radio-group name="sex">
+      <label><radio value="0"/>男</label>
+      <label><radio value="1"/>女</label>
+    </radio-group>
+  </view>
+  <view class="section">
+    <view class="section__title">组名</view>
+    <input name="groupName" placeholder="请输入组名" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit" type="primary">提交</button>
+    <button formType="reset" type="primary">重置</button>
+  </view>
+</form>
+<mp-dialog title="确认提交" show="{{submitTipShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+    <view>请确认是否提交</view>
+</mp-dialog>
+<mp-loading type="circle" tips="{{tips}}" show="{{showLoading}}"></mp-loading>

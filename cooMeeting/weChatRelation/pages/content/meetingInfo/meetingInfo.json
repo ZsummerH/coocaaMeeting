@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会议室信息",
+  "usingComponents": {
+      "mp-dialog": "../../../weui-miniprogram/cells/cells",
+      "mp-loading": "../../../weui-miniprogram/cell/cell",
+      "mp-searchbar": "../../../weui-miniprogram/searchbar/searchbar",
+      "mp-slideview": "../../../weui-miniprogram/slideview/slideview"
+  }
+}

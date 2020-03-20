@@ -1,7 +1,7 @@
 {
   "navigationBarTitleText": "个人信息",
   "usingComponents": {
-      "mp-dialog": "../../../weui-miniprogram/dialog/dialog",
-      "mp-loading": "../../../weui-miniprogram/loading/loading"
+      "mp-dialog": "../../../components/dialog/dialog",
+      "mp-loading": "../../../components/loading/loading"
   }
 }
